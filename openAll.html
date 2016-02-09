@@ -1,0 +1,39 @@
+<html>
+<title>'Tis Maintenance Time</title>
+<head>
+<script src="openAll.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="notes">
+	<h2>'Tis Maintenance time.</h2>
+	<h3>Lest ye forget</h3>
+	<div>
+	<p>work related text deleted</p>
+    <br />
+</div>
+    <div>
+	<input type="button" value="Open all sites" onclick="openAll()"/>
+    </div>
+
+    <div id="addSite">
+        <form>
+        <h3>Add a site:</h3>
+        <input type=text name=sitePush>
+        <input type="button" value="Add site" onclick='addSite(sitePush.value); sitePush.value="";'/>
+        </form>
+        <div id="addSitePanel">
+    
+        </div>
+    </div>
+    
+    <div id="listSitesHeading">
+        <h3>Sites being maintained:</h3>
+        <input type="button" value="List all sites" onclick="listAll()"/>
+        
+    <div id="listSites">
+    </div>
+
+        <input type="button" value="Hide site list" onclick="clearDiv()"/>
+    </div>
+</body>	
+</html>
