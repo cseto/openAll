@@ -1,0 +1,2 @@
+# openAll
+My first script
